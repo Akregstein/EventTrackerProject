@@ -13,7 +13,7 @@ public class Mountain {
 	int id;
 
     private	String name;
-
+    @Column(name= "mountain_range")
 	private String range;
 	
 	private int elevation;
